@@ -74,6 +74,17 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
+    },
+    {
+      "id": "cD7k0XLG-",
+      "uuid": "c638412b-3c38-4754-b7b2-208a7fddb962",
+      "firstName": "Peter",
+      "lastName": "Parker",
+      "username": "Spiderman",
+      "password": "$2a$10$G9V.3BGtVGMCH5rzwsrDIOhm7R2P5hOdC56Ejkql07g8XuM2eJUx.",
+      "balance": 0,
+      "createdAt": "2026-01-21T01:33:49.407Z",
+      "modifiedAt": "2026-01-21T01:33:49.407Z"
     }
   ],
   "contacts": [
@@ -253,6 +264,17 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
+    },
+    {
+      "id": "eMZhEVYOs",
+      "uuid": "5964de2f-6a80-4c41-8c1b-80d7df6c71b3",
+      "userId": "cD7k0XLG-",
+      "bankName": "abcde",
+      "accountNumber": "987654321",
+      "routingNumber": "123456789",
+      "isDeleted": false,
+      "createdAt": "2026-01-21T01:43:11.615Z",
+      "modifiedAt": "2026-01-21T01:43:11.615Z"
     }
   ],
   "transactions": [

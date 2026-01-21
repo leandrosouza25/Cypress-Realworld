@@ -1,7 +1,6 @@
 import { Amplify } from "aws-amplify";
 import { fetchAuthSession, signIn } from "aws-amplify/auth";
 
-Amplify.configure(Cypress.env("awsConfig"));
 
 const fetchJwts = async (username: string, password: string) => {
   const options = { authFlowType: "USER_PASSWORD_AUTH" as const };

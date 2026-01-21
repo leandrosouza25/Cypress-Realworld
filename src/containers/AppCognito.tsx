@@ -26,7 +26,9 @@ const Root = styled("div")(({ theme }) => ({
   },
 }));
 
-Amplify.configure(awsConfig as ResourcesConfig);
+if (typeof window !== "undefined" && !(window as any).Cypress) {
+  Amplify.configure(awsConfig as ResourcesConfig);
+}
 
 // @ts-ignore
 if (window.Cypress) {
