@@ -26,7 +26,7 @@ export default defineConfig({
   },
 
   env: {
-    apiUrl: "http://localhost:3002",
+    apiUrl: "http://localhost:3003",
     defaultPassword: "s3cret",
     coverage: false,
     codeCoverage: {
@@ -49,6 +49,9 @@ export default defineConfig({
   },
 
   e2e: {
+    baseUrl: "http://localhost:3000",
+    pageLoadTimeout: 60000,
+    
     specPattern: "cypress/tests/**/*.spec.{js,jsx,ts,tsx}",
     supportFile: "cypress/support/e2e.ts",
 

@@ -27,6 +27,7 @@ describe('Login', () => {
     cy.get('[name="username"]').type('Spider')
     cy.get('[name="password"]').type('vaiar')
     cy.get("[type='submit']").click()
+    cy.get("[role='alert']")
 
   });
 })

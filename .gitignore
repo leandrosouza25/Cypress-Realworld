@@ -22,7 +22,9 @@ cypress/screenshots
 .nyc_output
 
 # Ignore env local files - https://create-react-app.dev/docs/adding-custom-environment-variables/#what-other-env-files-can-be-used
+.env 
 .env*.local
+data/database.json
 
 #amplify
 amplify/\#current-cloud-backend
