@@ -52,7 +52,16 @@ A payment application to demonstrate <strong>real-world</strong> usage of <a hre
 🚀 Full-stack [Express][express]/[React][reactjs] application with real-world features and tests
 👮‍♂️ Local Authentication
 🔥 Database Seeding with End-to-end Tests
-💻 CI/CD + [Cypress Cloud][cypresscloud]
+💻 CI/CD + [Cypress Cloud][cypresscloud] 
+
+![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat&logo=cypress&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
+![Chrome](https://img.shields.io/badge/Chrome-4285F4?style=flat&logo=googlechrome&logoColor=white)
+
 
 ## Getting Started
 
